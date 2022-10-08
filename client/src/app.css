@@ -25,11 +25,11 @@ input{
     outline: none;
     width: 400px;
     padding: 0 0.5rem;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(90, 8, 8);
 }
 
 .add{
-    background-color: #000;
+    background-color: rgb(90, 8, 8);
     color: #fff;
     padding: 0.5rem 1.5rem;
     cursor: pointer;
@@ -56,3 +56,30 @@ input{
 i{
     cursor: pointer;
 }
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--Very-Dark-Grayish-Blue);
+    background: var(--body-background);
+    font-size: 1.2rem;
+    min-height: 100vh;
+    margin: 0;
+    user-select: none;
+}
+.attribution a {
+    font-size: 1rem;
+    color: var(--Bright-Blue);
+    text-decoration: none;
+  }
+  
+  .attribution .author {
+    text-align: center;
+    padding-bottom: 3rem;
+    color: var(--Bright-Blue);
+  }
+  
+  .attribution a:hover {
+    color: hsl(228, 75%, 54%);
+    text-decoration: underline;
+  }
+  .active {
+    color: var(--Bright-Blue);}
